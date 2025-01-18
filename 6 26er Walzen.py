@@ -1,5 +1,3 @@
-import random
-
 abc = ["A" ,"B" ,"C" ,"D" ,"E" ,"F" ,"G" ,"H" ,"I" ,"J" ,"K" ,"L" ,"M" ,"N" ,"O" ,"P" ,"Q" ,"R","S" ,"T" ,"U" ,"V" ,"W" ,"X" ,"Y" ,"Z" ]
 zeichen = 0
 index = 0
