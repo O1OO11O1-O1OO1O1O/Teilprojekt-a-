@@ -4,7 +4,6 @@ abc = ["A" ,"B" ,"C" ,"D" ,"E" ,"F" ,"G" ,"H" ,"I" ,"J" ,"K" ,"L" ,"M" ,"N" ,"O"
 zeichen = 0
 index = 0
 
-
 print(1,"/",6)
 W1 = [[21, 4], [19, 13], [11, 14], [8, 15], [3, 2], [0, 23], [1, 21], [16, 8], [10, 7], [6, 6], [9, 11], [25, 20], [13, 24], [2, 3], [24, 12], [22, 17], [14, 25], [5, 1], [4, 10], [20, 0], [17, 5], [23, 9], [15, 22], [7, 19], [12, 18], [18, 16]]
 print(W1)
@@ -43,8 +42,6 @@ if input in abc:
             print("W1: ", abc [W1 [x] [0]], " zu ",abc [storage])
     index = storage
 
-    
-
     for x in range(0,len(abc)):
 
         if index == W2 [x] [0]:
@@ -52,17 +49,13 @@ if input in abc:
             print("W2: ",abc [W2 [x] [0]], " zu ",abc [storage])
     index = storage
 
-    
-
     for x in range(0,len(abc)):
 
         if index == W3 [x] [0]:
             storage = W3 [x] [1]
             print("W3: ", abc [W3 [x] [0]], " zu ",abc [storage])
     index = storage
-
     
-
     for x in range(0,len(abc)):
 
         if index == W4 [x] [0]:
@@ -70,16 +63,12 @@ if input in abc:
             print("W4: ", abc [W4 [x] [0]], " zu ",abc [storage])
     index = storage
 
-    
-
     for x in range(0,len(abc)):
 
         if index == W5 [x] [0]:
             storage = W5 [x] [1]
             print("W5: ", abc [W5 [x] [0]], " zu ",abc [storage])
     index = storage
-
-    
 
     for x in range(0,len(abc)):
 
