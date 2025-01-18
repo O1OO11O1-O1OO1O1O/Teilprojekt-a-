@@ -43,16 +43,12 @@ if input in abc:
             print("W1: ", abc [W1 [x] [0]], " zu ",abc [storage])
     index = storage
 
-    #index = abc.index(storage)
-
     for x in range(0,len(abc)):
 
         if index == W2 [x] [0]:
             storage = W2 [x] [1]
             print("W2: ",abc [W2 [x] [0]], " zu ",abc [storage])
     index = storage
-
-    #index = abc.index(storage)
 
     for x in range(0,len(abc)):
 
@@ -61,8 +57,6 @@ if input in abc:
             print("W3: ", abc [W3 [x] [0]], " zu ",abc [storage])
     index = storage
 
-    #index = abc.index(storage)
-
     for x in range(0,len(abc)):
 
         if index == W4 [x] [0]:
@@ -70,16 +64,12 @@ if input in abc:
             print("W4: ", abc [W4 [x] [0]], " zu ",abc [storage])
     index = storage
 
-    #index = abc.index(storage)
-
     for x in range(0,len(abc)):
 
         if index == W5 [x] [0]:
             storage = W5 [x] [1]
             print("W5: ", abc [W5 [x] [0]], " zu ",abc [storage])
     index = storage
-
-    #index = abc.index(storage)
 
     for x in range(0,len(abc)):
 
